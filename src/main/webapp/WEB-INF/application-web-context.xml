@@ -20,4 +20,7 @@
     <jaxws:endpoint  id="mathModule"
                      implementor="com.codereq.cxfservices.MathModuleImpl"
                      address="/MathModule" />
+    <jaxws:endpoint  id="hello"
+                     implementor="com.codereq.cxfservices.Hello"
+                     address="/Hello" />
 </beans>
