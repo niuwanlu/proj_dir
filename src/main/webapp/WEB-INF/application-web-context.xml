@@ -23,4 +23,7 @@
     <jaxws:endpoint  id="hello"
                      implementor="com.codereq.cxfservices.Hello"
                      address="/Hello" />
+    <jaxws:endpoint  id="helloWorld"
+                     implementor="com.codereq.cxfservices.HelloWorldImpl"
+                     address="/HelloWorld" />
 </beans>
