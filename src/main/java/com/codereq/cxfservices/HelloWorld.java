@@ -8,6 +8,6 @@ import javax.jws.soap.SOAPBinding;
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface HelloWorld{
 
-    @WebMethod String getHelloWorldAsString(String name);
+    @WebMethod String getHelloWorldAsString();
 
 }
